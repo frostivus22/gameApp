@@ -1,0 +1,210 @@
+
+
+
+
+html *
+{
+   /* font-size: 1em !important; */
+   color: #000;
+  font-family: 'Indie Flower', cursive !important;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+/* home page fonts and styles */
+#home{
+  text-align: center;
+  margin: auto;
+  background-color: #F2F7F6;
+  height: 500px;
+  width: 800px;
+  font-size: 100px;
+
+}
+#home1{
+  text-align: center;
+  margin: auto;
+  height: 60px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 50px;
+  background: #3fdbbc;
+}
+
+#jello {
+ text-align: center;
+ font-size: 80px;
+
+}
+
+#div1 {
+  margin: auto;
+  margin-top: 30px;
+  height: 700px;
+  width: 500px;
+
+
+}
+
+#wrapMe {
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  font-weight: bold;
+  background: #3fdbbc;
+}
+
+
+#wrapMe1{
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+
+  border-radius: 5px;
+  font-weight: bold;
+  background: #3fdbbc;
+}
+
+#wrapMe2{
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+
+  border-radius: 5px;
+  font-weight: bold;
+  background: #3fdbbc;
+  font-size: 25px;
+}
+
+#wrapMe3{
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+
+  border-radius: 5px;
+  font-weight: bold;
+  background: #3fdbbc;
+}
+
+
+/* level creation */
+
+#levels{
+  margin: auto;
+  margin-top: 100px;
+  height: 300px;
+  width: 500px;
+
+}
+
+#levelwrap1{
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  height: 70px;
+  width: 250px;
+  border-radius: 5px;
+  font-weight: bold;
+  background: #3fdbbc;
+}
+
+#levelwrap2{
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 50px;
+  height: 70px;
+  width: 250px;
+  border-radius: 5px;
+  font-weight: bold;
+  background: #3fdbbc;
+}
+#back{
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 50px;
+  height: 70px;
+  width: 250px;
+  border-radius: 5px;
+  font-weight: bold;
+  background: #3fdbbc;
+}
+
+#proceed {
+  text-align: center;
+  height: 20px;
+  width: 40px;
+  background: #3fdbbc;
+}
+
+/* container for the questions */
+#QuestionContainer{
+  text-align: center;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#QuestionContainer button {
+  font-size: 20px;
+  font-weight: bold;
+}
+#QuestionContainer input {
+  height: 34px;
+  font-size: 25px;
+}
+
+#lvl2Cont{
+  height: 40px;
+  width: 150px;
+  background-color: green;
+  margin: auto;
+}
+
+
+/* tooltips */
+
+[tooltip]:before {
+    font-size: 15px;
+    position : absolute;
+    content : attr(tooltip);
+    opacity : 0;
+    height: 70px;
+    width: 180px;
+    border-radius: 5px;
+
+}
+
+[tooltip]:hover:before {
+    opacity : 1;
+    background: #3fdbbc;
+    margin-top: -20px;
+    margin-left: 200px;
+}
+
+
+
+#finPage{
+
+  margin: auto;
+  height: 500px;
+  width: 800px;
+  text-align: center;
+
+
+}
